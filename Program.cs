@@ -31,6 +31,7 @@ namespace ConsoleAppLearning
                 person.Introduce();
             }
 
+
             // bank account
             List<BankAccount> accounts = new List<BankAccount>();
             accounts.Add(new BankAccount("Jenifer", 200, "EUR"));
