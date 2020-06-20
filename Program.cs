@@ -39,6 +39,7 @@ namespace ConsoleAppLearning
             accounts[1].PrintInfo();
             accounts.Add(new BankAccount("John", 2000, "EUR"));
             accounts[2].PrintInfo();
+
         }
     }
 
