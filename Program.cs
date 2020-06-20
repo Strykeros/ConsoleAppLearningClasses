@@ -15,7 +15,6 @@ namespace ConsoleAppLearning
             persons.Add(new Human("Agnese", "Egle", 20, "Gray"));
 
 
-
             persons[0].Introduce(); // first person
             persons[1].Introduce(); // second person
             persons[2].Introduce(); // third person
