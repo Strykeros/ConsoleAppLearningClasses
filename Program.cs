@@ -30,7 +30,6 @@ namespace ConsoleAppLearning
                 person.Introduce();
             }
 
-
             // bank account
             List<BankAccount> accounts = new List<BankAccount>();
             accounts.Add(new BankAccount("Jenifer", 200, "EUR"));
@@ -40,6 +39,13 @@ namespace ConsoleAppLearning
             accounts.Add(new BankAccount("John", 2000, "EUR"));
             accounts[2].PrintInfo();
 
+
+            accounts[0].MakeDeposit(-1000, "Birthday gift");
+            accounts[1].MakeDeposit(1000, "Salary");
+            accounts[1].MakeDeposit(50, "Bonus");
+            Console.WriteLine(accounts[0].Balance);
+            accounts[0].MakeWithdrawal(150, "Online course");
+            Console.WriteLine(accounts[0].Balance);
         }
     }
 
